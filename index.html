@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- ============================================================
+     PAGE TITLE + SEARCH DESCRIPTION
+     ============================================================ -->
+<title>2026 Idea Showcase Fall Catalog | DesignKings</title>
+<meta name="description" content="Browse the DesignKings 2026 Idea Showcase Fall Catalog. Spirit wear, staff gifts, uniforms and event ideas for Denton County schools. Ask us for options and pricing on anything inside.">
+<link rel="canonical" href="https://design-kings.github.io/fall-catalog-2026/">
+
+<!-- ============================================================
+     SOCIAL SHARE PREVIEW
+     Share card lives in this repo (fall-catalog-share-card.png).
+     og:image / twitter:image point to the GitHub Pages URL below.
+     ============================================================ -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="DesignKings">
+<meta property="og:title" content="2026 Idea Showcase Fall Catalog">
+<meta property="og:description" content="Spirit wear, staff gifts and event ideas for Denton County schools. Flip through all 60 pages.">
+<meta property="og:url" content="https://design-kings.github.io/fall-catalog-2026/">
+<meta property="og:image" content="https://design-kings.github.io/fall-catalog-2026/fall-catalog-share-card.png">
+<meta property="og:image:secure_url" content="https://design-kings.github.io/fall-catalog-2026/fall-catalog-share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="DesignKings 2026 Idea Showcase Fall Catalog">
+<meta property="og:locale" content="en_US">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="2026 Idea Showcase Fall Catalog">
+<meta name="twitter:description" content="Spirit wear, staff gifts and event ideas for Denton County schools. Flip through all 60 pages.">
+<meta name="twitter:image" content="https://design-kings.github.io/fall-catalog-2026/fall-catalog-share-card.png">
+
+<style>
+  :root {
+    --dk-ink: #ffffff;
+    --dk-ink-soft: #d8d5cf;
+    --dk-gold: #e6a12d;
+    --dk-line: rgba(230, 161, 45, 0.22);
+    --dk-wash: rgba(255, 255, 255, 0.05);
+    --dk-wash-line: rgba(230, 161, 45, 0.32);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #000000;
+    color: var(--dk-ink);
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .dk-wrap { position: relative; max-width: 1080px; margin: 0 auto; padding: 56px 22px 80px; }
+
+  /* ---- Crown logo, top right (links home) ---- */
+  .dk-crown-link {
+    position: absolute;
+    top: 40px;
+    right: 22px;
+    width: 256px;
+    display: block;
+    line-height: 0;
+  }
+  .dk-crown {
+    width: 100%;
+    height: auto;
+    display: block;
+    user-select: none;
+  }
+
+  .dk-eyebrow {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--dk-gold);
+    margin-bottom: 14px;
+  }
+  h1 {
+    font-size: 44px;
+    line-height: 1.12;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    margin: 0 0 18px;
+  }
+  .dk-lede {
+    font-size: 18px;
+    color: var(--dk-ink-soft);
+    max-width: 62ch;
+    margin: 0 0 28px;
+  }
+  .dk-rule { height: 3px; width: 56px; background: var(--dk-gold); margin: 0 0 36px; }
+
+  /* ---- Catalog viewer ---- */
+  .dk-viewer-shell {
+    border: 1px solid var(--dk-line);
+    background: #0a0a0a;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  #ecatalogsearch {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    min-height: 420px;
+  }
+  @media (max-width: 700px) {
+    #ecatalogsearch { aspect-ratio: 3 / 4; min-height: 460px; }
+    h1 { font-size: 32px; }
+    .dk-wrap { padding: 40px 16px 64px; }
+    .dk-crown-link { width: 160px; top: 22px; right: 16px; }
+  }
+
+  .dk-tip {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 14px;
+    color: rgba(216, 213, 207, 0.75);
+    margin: 14px 0 0;
+  }
+
+  .dk-cta {
+    margin-top: 56px;
+    background: var(--dk-wash);
+    border: 1px solid var(--dk-wash-line);
+    border-radius: 4px;
+    padding: 38px 34px;
+    text-align: center;
+  }
+  .dk-cta h2 { font-size: 26px; font-weight: 400; margin: 0 0 10px; }
+  .dk-cta p { color: var(--dk-ink-soft); font-size: 17px; margin: 0 auto 26px; max-width: 60ch; }
+  .dk-btns {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  .dk-btns + .dk-btns { margin-top: 14px; }
+  .dk-btn {
+    display: inline-block;
+    padding: 14px 28px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  .dk-btn-primary { background: var(--dk-gold); color: #000000; border-color: var(--dk-gold); }
+  .dk-btn-primary:hover { background: #ffffff; border-color: #ffffff; }
+  .dk-btn-ghost { border: 1px solid var(--dk-gold); color: var(--dk-gold); background: transparent; }
+  .dk-btn-ghost:hover { background: var(--dk-gold); color: #000000; }
+
+  /* ---- Request a catalog modal ---- */
+  .dk-modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 44px 16px;
+    z-index: 1000;
+    overflow: auto;
+  }
+  .dk-modal.open { display: flex; }
+  .dk-modal-card {
+    background: #0c0c0c;
+    border: 1px solid var(--dk-wash-line);
+    border-radius: 6px;
+    max-width: 520px;
+    width: 100%;
+    padding: 30px 28px 32px;
+    position: relative;
+  }
+  .dk-modal-card h3 { font-family: Georgia, serif; font-weight: 400; font-size: 24px; margin: 0 0 6px; color: #fff; }
+  .dk-modal-sub { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 14px; color: var(--dk-ink-soft); margin: 0 0 22px; }
+  .dk-modal-close {
+    position: absolute; top: 10px; right: 14px;
+    background: none; border: none; color: var(--dk-gold);
+    font-size: 30px; line-height: 1; cursor: pointer;
+  }
+  #catalogForm label {
+    display: block;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 13px; letter-spacing: 0.02em;
+    color: var(--dk-ink-soft); margin: 0 0 15px;
+  }
+  #catalogForm input, #catalogForm textarea {
+    display: block; width: 100%; margin-top: 6px;
+    padding: 11px 12px; background: #000;
+    border: 1px solid var(--dk-line); border-radius: 3px;
+    color: #fff; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 15px;
+  }
+  #catalogForm input:focus, #catalogForm textarea:focus { outline: none; border-color: var(--dk-gold); }
+  .dk-form-submit { width: 100%; margin-top: 8px; }
+  .dk-form-note { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 12px; color: rgba(216,213,207,0.55); margin: 14px 0 0; text-align: center; }
+
+  .dk-foot {
+    margin-top: 44px;
+    padding-top: 22px;
+    border-top: 1px solid var(--dk-line);
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 14px;
+    color: rgba(216, 213, 207, 0.6);
+    text-align: center;
+  }
+  .dk-foot a { color: var(--dk-gold); text-decoration: none; }
+</style>
+</head>
+<body>
+
+<div class="dk-wrap">
+
+  <a class="dk-crown-link" href="https://design-kings.com" target="_blank" rel="noopener" aria-label="DesignKings home"><img class="dk-crown" src="data:image/png;base64,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" alt="DesignKings"></a>
+
+  <div class="dk-eyebrow">2026 Idea Showcase</div>
+  <h1>Fall Catalog</h1>
+  <p class="dk-lede">Sixty pages of spirit wear, staff gifts, uniforms and event ideas, pulled together for Denton County schools and the people who keep them running. Flip through it below. Anything you see in here, we can put together options and pricing on.</p>
+  <div class="dk-rule"></div>
+
+  <div class="dk-viewer-shell">
+    <div id="ecatalogsearch"></div>
+  </div>
+  <p class="dk-tip">Use the arrows to turn pages, click any page to zoom, and use the search icon to find a product by name.</p>
+
+  <div class="dk-cta">
+    <h2>See something you like?</h2>
+    <p>Tell us which item(s) you're interested in, roughly how many you need and when you need them by and we will send options and pricing. We can also get another printed copy of this catalog to your campus if you'd like. Request yours below.</p>
+    <div class="dk-btns">
+      <a class="dk-btn dk-btn-ghost" href="mailto:hello@design-kings.com?subject=Fall%20Catalog%20Request">Email hello@design-kings.com</a>
+      <a class="dk-btn dk-btn-ghost" href="tel:+14698543370">Call or text 469-854-3370</a>
+    </div>
+    <div class="dk-btns">
+      <a class="dk-btn dk-btn-ghost" href="https://design-kings.com" target="_blank" rel="noopener">Visit our website</a>
+      <a class="dk-btn dk-btn-ghost" href="https://promo.design-kings.com" target="_blank" rel="noopener">Visit our full site of products</a>
+      <a class="dk-btn dk-btn-ghost" href="https://design-kings.com/contact/#reach-out-today" target="_blank" rel="noopener">Get a free quote on your next project</a>
+      <button type="button" class="dk-btn dk-btn-ghost" id="dkRequestBtn">Request a catalog</button>
+    </div>
+  </div>
+
+  <div class="dk-foot">
+    DesignKings is a full-service marketing design and print shop in Denton, Texas.
+    <a href="https://www.design-kings.com/">design-kings.com</a>
+  </div>
+
+</div>
+
+<!-- ============================================================
+     REQUEST A CATALOG MODAL
+     On submit this opens the visitor's email app addressed to
+     hello@design-kings.com with the request filled in. To collect
+     submissions straight to an inbox instead (no email app needed),
+     swap the mailto handler for a form service like Formspree.
+     ============================================================ -->
+<div class="dk-modal" id="catalogModal" aria-hidden="true">
+  <div class="dk-modal-card" role="dialog" aria-modal="true" aria-labelledby="dkModalTitle">
+    <button class="dk-modal-close" id="dkModalClose" aria-label="Close">&times;</button>
+    <h3 id="dkModalTitle">Request a Catalog</h3>
+    <p class="dk-modal-sub">Tell us where to send it and we will get a printed copy to your campus.</p>
+    <form id="catalogForm">
+      <input type="hidden" name="_subject" value="New Catalog Request - Fall Catalog page">
+      <label>Contact Name<input name="name" type="text" required></label>
+      <label>School Name<input name="school" type="text" required></label>
+      <label>Address<input name="address" type="text" required></label>
+      <label>Phone Number<input name="phone" type="tel"></label>
+      <label>Email<input name="email" type="email" required></label>
+      <label>Message (optional)<textarea name="message" rows="4" placeholder="Anything you'd like us to know about your request"></textarea></label>
+      <button type="submit" class="dk-btn dk-btn-primary dk-form-submit">Send request</button>
+      <p class="dk-form-note">We'll get right back to you by email or phone.</p>
+    </form>
+    <div id="dkFormMsg" style="display:none; font-family:'Helvetica Neue',Arial,sans-serif; color:var(--dk-gold); font-size:16px; padding:10px 0;">Thank you! Your request is on its way. We'll follow up shortly.</div>
+    <div id="dkFormErr" style="display:none; font-family:'Helvetica Neue',Arial,sans-serif; color:#e07a5f; font-size:14px; padding:8px 0;">Something went wrong. Please email hello@design-kings.com or call 469-854-3370.</div>
+  </div>
+</div>
+
+<!-- ============================================================
+     ADOBE SCENE7 E-CATALOG VIEWER
+     ============================================================ -->
+<script src="https://s7d4.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script>
+<script>
+  var eCatalogSearch = new s7viewers.eCatalogSearchViewer();
+  eCatalogSearch.setParam("serverurl", "https://s7d4.scene7.com/is/image/");
+  eCatalogSearch.setAsset("ASI/179560 - 1101691185");
+  eCatalogSearch.setParam("emailurl", "https://s7d4.scene7.com/s7/emailFriend");
+  eCatalogSearch.setParam("contenturl", "https://s7d4.scene7.com/skins/");
+  eCatalogSearch.setParam("config", "ASI/Universal_HTML5_eCatalog_Search_nodivider");
+  eCatalogSearch.setContainerId("ecatalogsearch");
+  eCatalogSearch.init();
+</script>
+
+<!-- ---- Request a catalog modal behavior ---- -->
+<script>
+  (function () {
+    var modal = document.getElementById('catalogModal');
+    var openBtn = document.getElementById('dkRequestBtn');
+    var closeBtn = document.getElementById('dkModalClose');
+    function openModal() { modal.classList.add('open'); modal.setAttribute('aria-hidden', 'false'); }
+    function closeModal() { modal.classList.remove('open'); modal.setAttribute('aria-hidden', 'true'); }
+    openBtn.addEventListener('click', openModal);
+    closeBtn.addEventListener('click', closeModal);
+    modal.addEventListener('click', function (e) { if (e.target === modal) closeModal(); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeModal(); });
+    // >>> Paste your Formspree form endpoint below (formspree.io -> New form -> send to hello@design-kings.com)
+    var FORMSPREE_ENDPOINT = 'https://formspree.io/f/xqpklkpw';
+    document.getElementById('catalogForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var f = e.target;
+      var btn = f.querySelector('button[type="submit"]');
+      btn.disabled = true; btn.textContent = 'Sending...';
+      fetch(FORMSPREE_ENDPOINT, { method: 'POST', body: new FormData(f), headers: { 'Accept': 'application/json' } })
+        .then(function (resp) {
+          if (resp.ok) {
+            f.style.display = 'none';
+            document.getElementById('dkFormMsg').style.display = 'block';
+          } else {
+            btn.disabled = false; btn.textContent = 'Send request';
+            document.getElementById('dkFormErr').style.display = 'block';
+          }
+        })
+        .catch(function () {
+          btn.disabled = false; btn.textContent = 'Send request';
+          document.getElementById('dkFormErr').style.display = 'block';
+        });
+    });
+  })();
+</script>
+
+</body>
+</html>
