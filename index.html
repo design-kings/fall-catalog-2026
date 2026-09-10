@@ -222,11 +222,8 @@
   <p class="dk-lede">Sixty pages of spirit wear, staff gifts, uniforms and event ideas, pulled together for Denton County schools and the people who keep them running. Flip through it below. Anything you see in here, we can put together options and pricing on.</p>
   <div class="dk-rule"></div>
 
-  <div class="dk-viewer-shell">
-    <div id="ecatalogsearch"></div>
-  </div>
-  <p class="dk-tip">Use the arrows to turn pages, click any page to zoom, and use the search icon to find a product by name.</p>
-
+  <p class="dk-tip">Use the arrows to turn pages and click any page to zoom in.</p>
+     
   <div class="dk-cta">
     <h2>See something you like?</h2>
     <p>Tell us which item(s) you're interested in, roughly how many you need and when you need them by and we will send options and pricing. We can also get another printed copy of this catalog to your campus if you'd like. Request yours below.</p>
@@ -280,16 +277,15 @@
 <!-- ============================================================
      ADOBE SCENE7 E-CATALOG VIEWER
      ============================================================ -->
-<script src="https://s7d4.scene7.com/s7viewers/html5/js/eCatalogSearchViewer.js"></script>
+<script src="https://s7d4.scene7.com/s7viewers/html5/js/eCatalogViewer.js"></script>
 <script>
-  var eCatalogSearch = new s7viewers.eCatalogSearchViewer();
-  eCatalogSearch.setParam("serverurl", "https://s7d4.scene7.com/is/image/");
-  eCatalogSearch.setAsset("ASI/179560 - 1101691185");
-  eCatalogSearch.setParam("emailurl", "https://s7d4.scene7.com/s7/emailFriend");
-  eCatalogSearch.setParam("contenturl", "https://s7d4.scene7.com/skins/");
-  eCatalogSearch.setParam("config", "ASI/Universal_HTML5_eCatalog_Search_nodivider");
-  eCatalogSearch.setContainerId("ecatalogsearch");
-  eCatalogSearch.init();
+  var eCatalog = new s7viewers.eCatalogViewer();
+  eCatalog.setParam("serverurl", "https://s7d4.scene7.com/is/image/");
+  eCatalog.setAsset("ASI/179560 - 1101691185");
+  eCatalog.setParam("emailurl", "https://s7d4.scene7.com/s7/emailFriend");
+  eCatalog.setParam("contenturl", "https://s7d4.scene7.com/skins/");
+  eCatalog.setContainerId("ecatalogsearch");
+  eCatalog.init();
 </script>
 
 <!-- ---- Request a catalog modal behavior ---- -->
